@@ -13,12 +13,27 @@ p {
   }
 }
 
+.text-justified {
+  text-align: justify;
+}
+
+.important-center {
+  text-align: center !important;
+}
+
+.inline-header {
+  color: #4267B2;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6 {  
   font-weight: 800;
   @include sans-serif-font;
 }
