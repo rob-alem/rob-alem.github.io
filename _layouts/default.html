@@ -16,6 +16,10 @@
       gtag("config", "UA-100387562-1");
     </script>
 
+    {% if site.google_verify %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}" />
+    {% endif %}
+
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -46,8 +50,11 @@
       type="text/css"
     />
 
+    <link rel="shortcut icon" type="image/png" href="../favicon.png" />
+
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet" />
+    {% seo %}
   </head>
 
   <body>

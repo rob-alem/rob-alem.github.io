@@ -1,0 +1,12 @@
+url: "https://robvboxtel.nl"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+title: Rob van Boxtel
+tagline: Website van Rob van Boxtel
+description: Website van Rob van Boxtel. Ik gebruik dit webadres onder andere voor mijn schoolopdrachten, blogs en andere projecten.
+author: Rob van Boxtel
+twitter:
+  username: RobBoxtel
+  card: summary
+google_verify: PSqDxPDzaEdL68Mnji3c2UajZgmLnk66W5XQBlTOFXU
